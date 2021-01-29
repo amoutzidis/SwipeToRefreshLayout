@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="swipeToRefreshLayoutStyle" format="reference"></attr>
+    <declare-styleable name="SwipeToRefreshLayout">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="progressColor1" format="color"/>
+        <attr name="progressColor2" format="color"/>
+        <attr name="progressColor3" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,3 @@
+include ':swipetorefreshlayout'
+include ':app'
+rootProject.name = "SwipeToRefreshLayout"

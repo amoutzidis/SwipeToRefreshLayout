@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SwipeToRefreshLayout" parent="android:Widget">
+        <item name="backgroundColor">#ffffff</item>
+        <item name="progressColor1">#000000</item>
+        <item name="progressColor2">#FFF000</item>
+        <item name="progressColor3">#000000</item>
+    </style>
+
+
+</resources>
