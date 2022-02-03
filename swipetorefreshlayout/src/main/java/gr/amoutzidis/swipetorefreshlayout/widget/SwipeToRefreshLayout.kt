@@ -40,12 +40,5 @@ class SwipeToRefreshLayout: SwipeRefreshLayout{
         setColorSchemeColors(firstColor, secondColor, thirdColor)
     }
 
-    private fun init(attrs: AttributeSet?) {
-//        @ColorInt val progressColor: Int = ThemeHelper.exportColor(context, R.attr.swipeProgressColor)
-//        @ColorInt val backgroundColor: Int = ThemeHelper.exportColor(context, R.attr.swipeBackgroundColor)
-
-//        setColorSchemeColors(progressColor, progressColor, progressColor)
-//        setProgressBackgroundColorSchemeColor(backgroundColor)
-    }
 
 }
