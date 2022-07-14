@@ -1,9 +1,7 @@
-## SwipeToRefreshLayout
+## Overview
+SwipeToRefreshLayout library helps to declare default progress bar & background colors via theme.xml
 
-### Overview
-This library helps to declare default progress bar & background colors via theme.xml
-
-### Usage
+## Usage
 Create the style which extend SwipeToRefreshLayout style
 
 ```xml
@@ -22,7 +20,7 @@ After you created your style, you can go to your app theme and add this line
 
 All SwipeToRefreshLayout's use above style without more code from the programmer
 
-### Download
+## Download
 Gradle is the only supported build configuration, so just add the dependency to your project build.gradle file:
 
 ```groovy
@@ -32,7 +30,7 @@ dependencies {
 ```
 
 
-### License
+## License
 
     Copyright 2020 Amoutzidis, Dimitrios
     
