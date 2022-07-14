@@ -25,10 +25,12 @@ All SwipeToRefreshLayout's use above style without more code from the programmer
 ### Download
 Gradle is the only supported build configuration, so just add the dependency to your project build.gradle file:
 
+```groovy
+dependencies {
+    implementation 'gr.amoutzidis.swipetorefreshlayout:$version'
+}
+```
 
-    dependencies {
-      implementation 'gr.amoutzidis.swipetorefreshlayout:$version'
-    }
 
 ### License
 
