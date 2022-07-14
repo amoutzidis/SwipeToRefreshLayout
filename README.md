@@ -4,10 +4,10 @@
 This library helps to declare default progress bar & background colors via theme.xml
 
 ### Usage
-Create the style which extend library style
+Create the style which extend SwipeToRefreshLayout style
 
-```
-style name="App.SwipeToRefreshLayout" parent="SwipeToRefreshLayout">
+```xml
+<style name="App.SwipeToRefreshLayout" parent="SwipeToRefreshLayout">
     <item name="backgroundColor">#000000</item>
     <item name="progressColor1">#A2BAFF</item>
     <item name="progressColor2">#FAF5AC</item>
@@ -15,8 +15,8 @@ style name="App.SwipeToRefreshLayout" parent="SwipeToRefreshLayout">
 </style>
 ```
 
-After you created your style, you can go to yout app theme and add the this line 
-```
+After you created your style, you can go to your app theme and add this line 
+```xml
 <item name="swipeToRefreshLayoutStyle">@style/App.SwipeToRefreshLayout</item>
 ```
 
