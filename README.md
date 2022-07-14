@@ -20,6 +20,8 @@ After you created your style, you can go to your app theme and add this line
 <item name="swipeToRefreshLayoutStyle">@style/App.SwipeToRefreshLayout</item>
 ```
 
+All SwipeToRefreshLayout's use above style without more code from the programmer
+
 ### Download
 Gradle is the only supported build configuration, so just add the dependency to your project build.gradle file:
 
