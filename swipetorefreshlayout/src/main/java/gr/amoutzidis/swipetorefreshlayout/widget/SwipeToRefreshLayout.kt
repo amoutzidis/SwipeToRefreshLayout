@@ -27,18 +27,8 @@ class SwipeToRefreshLayout: SwipeRefreshLayout{
         val progressColor2 = a.getColor(R.styleable.SwipeToRefreshLayout_progressColor2, Color.WHITE)
         val progressColor3 = a.getColor(R.styleable.SwipeToRefreshLayout_progressColor3, Color.WHITE)
 
-        setBackgroundSchemeColor(backgroundColor)
-        setProgressColor(progressColor1, progressColor2, progressColor3)
+        setProgressBackgroundColorSchemeColor(backgroundColor)
+        setColorSchemeColors(progressColor1, progressColor2, progressColor3)
 
     }
-
-    fun setBackgroundSchemeColor(color: Int){
-        setProgressBackgroundColorSchemeColor(color)
-    }
-
-    fun setProgressColor(firstColor: Int, secondColor: Int, thirdColor: Int){
-        setColorSchemeColors(firstColor, secondColor, thirdColor)
-    }
-
-
 }
