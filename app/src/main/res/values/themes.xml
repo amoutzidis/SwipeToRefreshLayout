@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="swipeToRefreshLayoutStyle">@style/App.SwipeToRefreshLayout</item>
+    </style>
+
+    <style name="App.SwipeToRefreshLayout" parent="SwipeToRefreshLayout">
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="progressColor1">#0938C1</item>
+        <item name="progressColor2">#A89F19</item>
+        <item name="progressColor3">#9F1515</item>
     </style>
 </resources>

@@ -7,13 +7,23 @@
     tools:context=".MainActivity">
 
     <gr.amoutzidis.swipetorefreshlayout.widget.SwipeToRefreshLayout
+        android:id="@+id/swipe_to_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </LinearLayout>
+            <Button
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/button_theme_mode"
+                android:text="Change Theme Mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </gr.amoutzidis.swipetorefreshlayout.widget.SwipeToRefreshLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
